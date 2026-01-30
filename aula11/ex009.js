@@ -1,7 +1,11 @@
-var pais = 'Brasil'
-res.innerHTML += (`Vivendo em ${pais}`)
-if (pais != 'Brasil') {
-    console.log('Você é estrangeiro!')
-} else {
-    console.log('Você é brasileiro!')
+function verificarNacionalidade() {
+    var pais = 'Brasil'
+    var txtpais = document.getElementById('txtnac')
+    pais = txtpais.value
+    var res = document.getElementById('res')
+    if (pais != 'Brasil') {
+        res.innerText = ('Você é estrangeiro!')
+    } else {
+        res.innerText =('Você é brasileiro!')
+    }
 }
