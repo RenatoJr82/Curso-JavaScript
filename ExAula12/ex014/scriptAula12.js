@@ -3,7 +3,7 @@ function carregar() {
     var img = window.document.getElementById('imagem')
     var data = new Date()
     //var hora = data.getHours()
-    var hora = 19 // para testar diferentes horários, alterar aqui o valor da variável hora
+    var hora = 13 // para testar diferentes horários, alterar aqui o valor da variável hora
     msg.innerHTML = `Agora são ${hora} horas.`
     if (hora >= 0 && hora < 12) {
         // BOM DIA!
@@ -12,10 +12,10 @@ function carregar() {
     } else if (hora >= 12 && hora < 18) {
         // BOA TARDE!
         img.src = 'tarde.png'
-        document.body.style.background = '#dd5e14'
+        document.body.style.background = '#a74d17'
     } else {
         // BOA NOITE!
         img.src = 'noite.png'
-        document.body.style.background = '#094855'
+        document.body.style.background = '#011d28'
     }
 }
