@@ -6,5 +6,7 @@ function parimpar(n){
     }
 }
 
-let res = parimpar(5)
+let res = parimpar(20)
 console.log(res)
+
+// criado uma função para verificar se um número é par ou impar, a função recebe um número como parâmetro e retorna 'par' ou 'impar' dependendo do resultado da verificação. Em seguida, a função é chamada com o número 20 e o resultado é armazenado na variável 'res', que é então impressa no console.
